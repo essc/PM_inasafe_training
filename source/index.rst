@@ -13,4 +13,13 @@ Contents
    :maxdepth: 1
 
    GNU Free Documentation License <gfdl.rst>
+   install
+   getting_help
+   toolbar
+   application-help/index
+   functionality
+   impact_functions_doc
+   postprocessors
+   using_qgis
+   getting_involved
 
