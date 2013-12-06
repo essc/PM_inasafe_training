@@ -37,7 +37,7 @@ source_suffix = '.rst'
 master_doc = 'index'
 
 # General information about the project.
-project = u'CLP-FFI-ESSC FOSS4G Workshop 2013'
+project = u'Pampanga QGIS and InaSAFE Workshop 2013'
 copyright = u'2013, ESSC and FFI license under GNU Free Document License'
 
 # The version info for the project you're documenting, acts as replacement for
@@ -393,7 +393,7 @@ latex_font_size = '10pt'
 # Grouping the document tree into LaTeX files. List of tuples
 # (source start file, target name, title, author, documentclass [howto/manual]).
 latex_documents = [
-   ('index', 'clp.tex', u'CLP-FFI-ESSC FOSS4G Workshop 2013',
+   ('index', 'clp.tex', u'Pampanga QGIS InaSAFE Workshop 2013',
    u' ', 'manual', 'False'),
 ]
 
