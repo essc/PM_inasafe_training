@@ -27,12 +27,12 @@ this test version.
 2. :guilabel:`Click` on **Settings** tab and :guilabel:`Check`
    *Show also experimental plugins*
 
-   .. image:: /static/user-docs/installer_options.png
+   .. image:: images/inasafe/installer_options.png
       :align: center
 
 3. :guilabel:`Click` on **Settings** tab and :guilabel:`Add` a new repository
 
-   .. image:: /static/user-docs/python_installer.png
+   .. image:: images/inasafe/python_installer.png
       :align: center
 
 4. Type the following into the Repository details
@@ -40,7 +40,7 @@ this test version.
    **Name:**   InaSAFE Test
    **URL:**    http://experimental.inasafe.org/
 
-   .. image:: /static/user-docs/repository_details.png
+   .. image:: images/inasafe/repository_details.png
       :align: center
 
 5. :guilabel:`OK`
@@ -48,17 +48,17 @@ this test version.
 6. You should now have 2 repositories connected, :guilabel:`Click` on
    **Plugins**
 
-   .. image:: /static/user-docs/connected.png
+   .. image:: images/inasafe/connected.png
       :align: center
 
 7. :guilabel:`Upgrade all`
 
-   .. image:: /static/user-docs/upgradeable.png
+   .. image:: images/inasafe/upgradeable.png
       :align: center
 
 8. InaSAFE has now been upgraded, all you need to do now is restart QGIS
 
-   .. image:: /static/user-docs/restart.png
+   .. image:: images/inasafe/restart.png
       :align: center
 
 From Zip Archive
