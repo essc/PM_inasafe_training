@@ -193,7 +193,7 @@ active again in the :guilabel:`Layers` list of QGIS.
    useful diagnostic information which can be submitted as part of a bug
    report if you think the error was incorrect.
 
-   .. image:: /static/user-docs/toggle-traceback.png
+   .. image:: images/inasafe/toggle-traceback.png
       :scale: 75 %
       :align: center
 
