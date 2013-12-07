@@ -10,8 +10,9 @@ Contents
 ---------
 
 .. toctree::
-   :maxdepth: 1
-
+   :maxdepth: 2
+   
+   About <about.rst>
    Basic GIS using QGIS <intro_qgis_course.rst>
    QGIS Installation for MS Windows, Mac OSX and Ubuntu Linux <qgis_install.rst>
    Sample Datasets <sample_datasets.rst>
@@ -23,5 +24,6 @@ Contents
    Concept of InaSAFE <concept_inasafe.rst>
    Installation of InaSAFE <install_inasafe.rst>
    Using InaSAFE in QGIS Plugin <intro_inasafe.rst>
+   References <references.rst>
    GNU Free Documentation License <gfdl.rst>
 

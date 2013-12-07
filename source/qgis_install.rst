@@ -8,7 +8,7 @@ This guide walks through the installation of QGIS depending on your operating sy
 
 .. note::
    The current version of Quantum GIS available is QGIS 2.0.1 'Dufour'. You can download the 
-   installers from the QGIS `download page <http://hub.qgis.org/projects/quantum-gis/wiki/Download>`_.
+   installers from the QGIS `download page <http://www.qgis.org/en/site/forusers/download.html>`_.
 
 .. image:: images/win.png
    :height: 30 pt
