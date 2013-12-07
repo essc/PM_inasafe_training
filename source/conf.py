@@ -307,6 +307,8 @@ rst_epilog = """
                     :width: 20 pt
 .. |mActionCapturePoint| image:: images/qgis_icons/mActionCapturePoint.png
                          :width: 20 pt
+.. |crs| image:: images/qgis_icons/geographic.png
+                         :width: 20 pt
 """
 
 # -- Options for HTML output ---------------------------------------------------
