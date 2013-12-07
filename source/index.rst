@@ -10,33 +10,11 @@ Contents
 ---------
 
 .. toctree::
-   :maxdepth: 1
-<<<<<<< HEAD
-
-   about.rst
-   Basic GIS using QGIS <intro_qgis_course.rst>
-   QGIS Installation for MS Windows, Mac OSX and Ubuntu Linux <qgis_install.rst>
-   Sample Datasets <sample_datasets.rst>
-   The QGIS Interface <qgis_interface_sc.rst>
-   Using Custom Symbology <qgis_custom_symbols.rst>
-   Managing Data Attributes <qgis_attributes.rst>
-   Digitizing Vector Layers <qgis_digitizing_sc.rst>
-   Map Design with Print Composer <qgis_map_composer.rst>
-   install
-   getting_help
-   toolbar
-   application-help/index
-   functionality
-   impact_functions_doc
-   postprocessors
-   using_qgis
-   getting_involved
-=======
+   :maxdepth: 2
    
    About <about.rst>
    Basic GIS using QGIS <intro_qgis_course.rst>
    Using InaSAFE in QGIS Plugin <intro_inasafe.rst>
    References <references.rst>
->>>>>>> 2a441c1a601437cbfe1de6b5d32dd11dbd7e6e74
    GNU Free Documentation License <gfdl.rst>
 
