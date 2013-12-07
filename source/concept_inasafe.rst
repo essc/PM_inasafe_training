@@ -49,3 +49,10 @@ At the end of this material, you will be able to:
 * perform a risk scenario using flood and earthquake data;
 * analyze estimated impact of the example scenarios;
 * learn how to print and save the result of the simulation.
+
+.. toctree::
+   :maxdepth: 2
+   :numbered:
+
+   install_inasafe.rst
+   using_inasafe.rst
