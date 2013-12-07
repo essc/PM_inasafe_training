@@ -11,6 +11,7 @@ Contents
 
 .. toctree::
    :maxdepth: 1
+<<<<<<< HEAD
 
    about.rst
    Basic GIS using QGIS <intro_qgis_course.rst>
@@ -30,5 +31,12 @@ Contents
    postprocessors
    using_qgis
    getting_involved
+=======
+   
+   About <about.rst>
+   Basic GIS using QGIS <intro_qgis_course.rst>
+   Using InaSAFE in QGIS Plugin <intro_inasafe.rst>
+   References <references.rst>
+>>>>>>> 2a441c1a601437cbfe1de6b5d32dd11dbd7e6e74
    GNU Free Documentation License <gfdl.rst>
 

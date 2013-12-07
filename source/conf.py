@@ -307,6 +307,8 @@ rst_epilog = """
                     :width: 20 pt
 .. |mActionCapturePoint| image:: images/qgis_icons/mActionCapturePoint.png
                          :width: 20 pt
+.. |crs| image:: images/qgis_icons/geographic.png
+                         :width: 20 pt
 """
 
 # -- Options for HTML output ---------------------------------------------------
@@ -332,7 +334,7 @@ html_theme = 'nature'
 
 # The name of an image file (relative to this directory) to place at the top
 # of the sidebar.
-html_logo = 'images/logos.png'
+html_logo = 'images/logos_all.png'
 
 # The name of an image file (within the static path) to use as favicon of the
 # docs.  This file should be a Windows icon file (.ico) being 16x16 or 32x32
@@ -399,7 +401,7 @@ latex_documents = [
 
 # The name of an image file (relative to this directory) to place at the top of
 # the title page.
-latex_logo = 'images/logos.png'
+latex_logo = 'images/logos_all.png'
 
 # For "manual" documents, if this is true, then toplevel headings are parts,
 # not chapters.
