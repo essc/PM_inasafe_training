@@ -28,7 +28,6 @@ At the end of the training/workshop, participants should be able to:
    :numbered:
 
    qgis_install.rst
-   sample_datasets.rst
    qgis_interface_sc.rst
    qgis_custom_symbols.rst
    qgis_attributes.rst
