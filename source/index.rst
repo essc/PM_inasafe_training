@@ -10,6 +10,11 @@ Contents
 ---------
 
 .. toctree::
+
+   :maxdepth: 2
+   
+   About <about.rst>
+
    :maxdepth: 2
    
    About <about.rst>

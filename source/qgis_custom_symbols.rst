@@ -31,36 +31,27 @@ directory.
 1. Select the ``Road`` layer and right-click on the layer and select 
 :guilabel:`Properties`.
 
-2. In the :guilabel:`Style` tab, click the :guilabel:`New Symbology`.  You will 
-be asked to confirm the changes to use the New Symbology, click :guilabel:`OK`.
+2. In the :guilabel:`Style` tab, click the :guilabel:`Symbol`.
  
 .. image:: images/properties_style_tab.png
    :align: center
    :width: 300 pt
 
-3. The :guilabel:`Style` tab will have 
-a new look.
-
-.. image:: images/new_symbology_style_tab.png
-   :align: center
-   :width: 300 pt
-
-4. Click the :guilabel:`Style manager...`.  Within this window, you can create 
-new symbols or import/export existing symbols.  Select the :guilabel:`Line` tab.
+3. Click the :guilabel:`Style manager...`.  Within this window, you can create 
+new symbols or import/export existing symbols.  Select the :guilabel:`Line` tab and click :guilabel:`Share` button.
 
 .. image:: images/style_manager.png
    :align: center
    :width: 300 pt
  
-5. Click the :guilabel:`Import...` button, open your ``vector`` directory and 
+4. Click the :guilabel:`Import...` button, open your ``vector`` directory and 
 select ``custom_symbols.xml``.  Click :guilabel:`Open`.
 
 .. image:: images/select_custom_symbols.png
    :align: center
    :width: 300 pt
 
-
-6. In the :guilabel:`Styles import/export` window, click :guilabel:`Select all -->` 
+5. In the :guilabel:`Styles import/export` window, click :guilabel:`Select all -->` 
 :guilabel:`Import`.
 
 .. image:: images/style_import_export.png
@@ -68,7 +59,7 @@ select ``custom_symbols.xml``.  Click :guilabel:`Open`.
    :width: 300 pt
 
 
-7. Your symbols will include more line styles.  Click :guilabel:`Close` to end 
+6. Your symbols will include more line styles.  Click :guilabel:`Close` to end 
 the import process.
 
 .. image:: images/style_import_export_2.png
