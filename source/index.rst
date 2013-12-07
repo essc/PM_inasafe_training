@@ -12,6 +12,7 @@ Contents
 .. toctree::
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
    :maxdepth: 1
 <<<<<<< HEAD
 
@@ -42,16 +43,21 @@ Contents
    getting_involved
 =======
 =======
+=======
+>>>>>>> 25324ea57097e06bb168b40848246f31e6d4aec5
    :maxdepth: 2
->>>>>>> 2aefe813d0bd5b077af289f29d4e5b5526db2a4d
    
    About <about.rst>
    Basic GIS using QGIS <intro_qgis_course.rst>
+<<<<<<< HEAD
 =======
    Concept of InaSAFE <concept_inasafe.rst>
    Installation of InaSAFE <install_inasafe.rst>
 >>>>>>> c01fa5bfe5e57a811280c24c4ce2b4070115aeb1
    Using InaSAFE in QGIS Plugin <intro_inasafe.rst>
+=======
+   InaSAFE Basics <concept_inasafe.rst>
+>>>>>>> 25324ea57097e06bb168b40848246f31e6d4aec5
    References <references.rst>
    GNU Free Documentation License <gfdl.rst>
 
