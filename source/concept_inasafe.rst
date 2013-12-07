@@ -56,3 +56,7 @@ At the end of this material, you will be able to:
 
    install_inasafe.rst
    using_inasafe.rst
+
+.. raw:: latex
+   
+   \pagebreak[4]

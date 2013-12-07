@@ -154,8 +154,12 @@ Also, an InaSAFE icon will appear on the QGIS toolbar.
 
 .. image:: images/inasafe/inasafe_plugin_toolbar.png
    :align: center
-   :width: 120 pt
+   :width: 300 pt
 
 .. Note::
    InaSAFE may not install properly depending on your operating system. You may 
    need to install additional Python modules in order to proceed.
+
+.. raw:: latex
+   
+   \pagebreak[4]

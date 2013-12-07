@@ -14,7 +14,7 @@ below) or from QGIS :menuselection:`Plugins --> InaSAFE --> InaSAFE Options`.
 
 .. image:: images/inasafe/inasafe_plugin_option_icon.png
    :align: center
-   :width: 120 pt
+   :width: 300 pt
  
 2. Then the dialog will appear, looking something like 
 this:
@@ -195,7 +195,7 @@ icon.
 
 .. image:: images/inasafe/inasafe_keyword.png
    :align: center
-   :width: 150 pt
+   :width: 300 pt
 
 Or, open the :menuselection:`Plugin` menu on QGIS toolbar, click on 
 :menuselection:`InaSAFE`, then click
@@ -270,7 +270,7 @@ or People who are in 1 meter and above are the affected.
 
 .. image:: images/inasafe/threshold1.png
    :align: center
-   :width: 150 pt
+   :width: 300 pt
 
 On the `Postprocessors` tab, the collected data are being categorized in the impact result.
 Since we're using buildings as an exposure, it will categorized who are flooded and not flooded
@@ -278,7 +278,7 @@ according to building types.
 
 .. image:: images/inasafe/postprocessors1.png
    :align: center
-   :width: 150 pt
+   :width: 300 pt
 
 Postprocessor for the people who needs to be evacuated has a different categories. There are
 `Gender, Age and Minimum Needs` It is categorized in gender to recognized women which 
@@ -287,14 +287,14 @@ Age are being categorized especially for the elder to have a better evacuation c
 
 .. image:: images/inasafe/postprocessors2.png
    :align: center
-   :width: 150 pt
+   :width: 300 pt
 
 The `Minimum Needs` tab purpose is to give estimated relief packs to be given in every family
 who are affected by flood.
 
 .. image:: images/inasafe/min_needs.png
    :align: center
-   :width: 150 pt
+   :width: 300 pt
 
 
 Impact Analysis
