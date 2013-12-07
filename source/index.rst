@@ -21,4 +21,13 @@ Contents
    Digitizing Vector Layers <qgis_digitizing_sc.rst>
    Map Design with Print Composer <qgis_map_composer.rst>
    GNU Free Documentation License <gfdl.rst>
+   install
+   getting_help
+   toolbar
+   application-help/index
+   functionality
+   impact_functions_doc
+   postprocessors
+   using_qgis
+   getting_involved
 
