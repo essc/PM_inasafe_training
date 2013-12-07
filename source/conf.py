@@ -38,7 +38,7 @@ master_doc = 'index'
 
 # General information about the project.
 project = u'Pampanga QGIS and InaSAFE Workshop 2013'
-copyright = u'2013, ESSC and FFI license under GNU Free Document License'
+copyright = u'2013, ESSC license under GNU Free Document License'
 
 # The version info for the project you're documenting, acts as replacement for
 # |version| and |release|, also used in various other places throughout the
