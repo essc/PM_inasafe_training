@@ -20,7 +20,7 @@ Add new plugins using Python Plugin Installer
 -----------------------------------------------
 
 1. In order to download and install an external Python plugin, click the menu 
-:menuselection:`Plugins -->` |plugin_installer| :guilabel:`Fetch Python Plugins`. 
+:menuselection:`Plugins -->` |plugin_installer| :guilabel:`Manage and Install Plugins`. 
 
 .. image:: images/plugin_installer_window.png
    :align: center
