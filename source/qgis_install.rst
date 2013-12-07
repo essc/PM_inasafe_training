@@ -74,14 +74,14 @@ process.
 
 7. You can now start QGIS by hitting :guilabel:`Start -->` 
 :guilabel:`All Programs -->` :guilabel:`QGIS Dufour -->` 
-:guilabel:`Quantum GIS`. 
+:guilabel:`QGIS Desktop 2.0.1`. 
 
 .. image:: images/start_qgis.png
    :align: center
    :width: 300 pt
 
 8. To uninstall QGIS, simply choose :guilabel:`Start -->` 
-:guilabel:`All Programs` --> :guilabel:`Quantum GIS -->` 
+:guilabel:`All Programs` --> :guilabel:`QGIS Dufour -->` 
 :guilabel:`Uninstall Quantum GIS`. 
 
 .. image:: images/osx.png
