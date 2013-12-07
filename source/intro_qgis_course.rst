@@ -35,3 +35,7 @@ At the end of the training/workshop, participants should be able to:
    qgis_plugins.rst
    qgis_digitizing_sc.rst
    qgis_map_composer.rst
+
+.. raw:: latex
+   
+   \pagebreak[4]
