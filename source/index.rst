@@ -12,6 +12,7 @@ Contents
 .. toctree::
    :maxdepth: 1
 
+   about.rst
    Basic GIS using QGIS <intro_qgis_course.rst>
    QGIS Installation for MS Windows, Mac OSX and Ubuntu Linux <qgis_install.rst>
    Sample Datasets <sample_datasets.rst>
@@ -20,7 +21,6 @@ Contents
    Managing Data Attributes <qgis_attributes.rst>
    Digitizing Vector Layers <qgis_digitizing_sc.rst>
    Map Design with Print Composer <qgis_map_composer.rst>
-   GNU Free Documentation License <gfdl.rst>
    install
    getting_help
    toolbar
@@ -30,4 +30,5 @@ Contents
    postprocessors
    using_qgis
    getting_involved
+   GNU Free Documentation License <gfdl.rst>
 
