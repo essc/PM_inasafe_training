@@ -20,6 +20,7 @@ Contents
    The QGIS Interface <qgis_interface_sc.rst>
    Using Custom Symbology <qgis_custom_symbols.rst>
    Managing Data Attributes <qgis_attributes.rst>
+   QGIS Plugins <qgis_plugins.rst>
    Digitizing Vector Layers <qgis_digitizing_sc.rst>
    Map Design with Print Composer <qgis_map_composer.rst>
    install
