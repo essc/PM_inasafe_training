@@ -10,6 +10,7 @@ Contents
 ---------
 
 .. toctree::
+<<<<<<< HEAD
    :maxdepth: 1
 <<<<<<< HEAD
 
@@ -33,11 +34,13 @@ Contents
    using_qgis
    getting_involved
 =======
+=======
+   :maxdepth: 2
+>>>>>>> 2aefe813d0bd5b077af289f29d4e5b5526db2a4d
    
    About <about.rst>
    Basic GIS using QGIS <intro_qgis_course.rst>
    Using InaSAFE in QGIS Plugin <intro_inasafe.rst>
    References <references.rst>
->>>>>>> 2a441c1a601437cbfe1de6b5d32dd11dbd7e6e74
    GNU Free Documentation License <gfdl.rst>
 
