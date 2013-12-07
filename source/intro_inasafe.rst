@@ -1,226 +1,6 @@
 =======================================
-Using InaSAFE plugin in QGIS
-=======================================
-.. Copy pasted from Inasafe docs http://inasafe.org/tutorial-docs/tutorial.html
-   Original license of this section is CC-BY, thus it should be a separate material
-   QGIS. https://groups.google.com/forum/?hl=en&fromgroups=#!topic/inasafe-users/494hpvMtF4o
-
-InaSAFE is a plugin for QGIS. It aims to produce realistic natural
-hazard impact scenarios for better planning, preparedness and response
-activities, using hazard and exposure geographic data.  
-
-During this training, you will explore the different components of
-InaSAFE plugin and their usage for an easy-to-use risk and impact scenarios
-assessments. 
-
-Concept
------------
-
-To effectively prepare for future floods, earthquakes or tsunami you must first 
-understand the likely impacts that need to be managed. For example, to prepare 
-contingency plans for a severe flood, emergency managers need to 
-answer questions like:
-
-* what are the areas likely to be affected;
-* how many people will need to be evacuated and sheltered;
-* which schools will be closed;
-* which hospitals can still take patients; and
-* what roads will be closed?
-
-How does it work?
----------------------
-
-InaSAFE provides a simple but rigorous way to combine data from scientists, 
-local governments and communities to provide insights into the likely impacts 
-of future disaster events. The software is focused on examining, in detail, 
-the impacts by a single hazard would have on specific sectors.
-
-
-.. image:: images/inasafe/inasafe_chart.png
-   :align: center
-   :width: 450 pt
-
-At the end of this material, you will be able to:
-
-* install a plugin in QGIS and understand its usage for spatial analysis;
-* understand what are hazard and exposure data and how they can be used to
-  estimate impacts;
-* learn how to prepare the data to be able to use it in InaSAFE;
-* perform a risk scenario using flood and earthquake data;
-* analyze estimated impact of the example scenarios;
-* learn how to print and save the result of the simulation.
-
-
-Install InaSAFE Plugin from QGIS Repository
--------------------------------------------------
-
-.. note::
-   InaSAFE is a plugin for QGIS, so QGIS must be installed first via
-    QGIS Python Plugin Repository.
-
-To install InaSAFE, use the plugin manager in QGIS:
-
-1. Click the menu 
-:menuselection:`Plugins -->` |plugin_installer| :guilabel:`Manage and install plugins...`. 
-
-2. Search for 'InaSAFE', select it and click the install button.
-The plugin will now be added to your plugins menu.
-
-From InaSAFE test repository
-----------------------------
-
-During development of an InaSAFE version, developers make a test version of
-the software for people to trial. Here are the instructions on how to install
-this test version.
-
-1. :menuselection:`Plugins --> Manage and install plugins...`
-2. :guilabel:`Click` on **Settings** tab and :guilabel:`Check`
-   *Show also experimental plugins*
-
-   .. image:: images/inasafe/installer_options.png
-      :align: center
-
-3. :guilabel:`Click` on **Settings** tab and :guilabel:`Add` a new repository
-
-   .. image:: images/inasafe/python_installer.png
-      :align: center
-
-4. Type the following into the Repository details
-
-   **Name:**   InaSAFE Test
-   **URL:**    http://experimental.inasafe.org/
-
-   .. image:: images/inasafe/repository_details.png
-      :align: center
-
-5. :guilabel:`OK`
-
-6. You should now have 2 repositories connected, :guilabel:`Click` on
-   **Plugins**
-
-   .. image:: images/inasafe/connected.png
-      :align: center
-
-7. :guilabel:`Upgrade all`
-
-   .. image:: images/inasafe/upgradeable.png
-      :align: center
-
-From Zip Archive
-----------------
-
-.. warning:: This installation method is not recommended unless you have no
-   internet access or wish to use a specific version of InaSAFE.
-   Please rather install using the plugin repository described above.
-
-We make regular releases of the InaSAFE plugin and they are available at
-http://plugins.qgis.org/plugins/inasafe/.
-Simply choose the most recent (i.e. the one with the largest version number)
-and save it to your hard disk.
-
-Now extract the zip file into the QGIS plugins directory.
-
-.. warning::
-   Depending on your version of QGIS the plugin directory is either
-   under a subdirectory of .qgis (QGIS versions < 2.0) or .qgis2 (QGIS version
-   >= 2.0).
-
-That also means depending on your Operating System (Windows, Linux,
-OSX) in combination with the version of QGIS, the directory containing the
-plugins will be in:
-
-- Windows: :file:`C:\\Users\\<your username>\\.qgis(2)\\python\\plugins\\`.
-- Linux: :file:`~/.qgis(2)/python/plugins/` (where "~" means
-  :file:`/home/<your username>/`
-- OSX: TODO
-
-.. note::
-   :file:`.qgis(2)` means that the directory is either called
-   :file:`.qgis` or :file:`.qgis2`.
-
-Example:
-In Windows Operating System using QGIS 2.0 you would do following:
-
-Locate the directory
-:file:`C:\\Users\\<your username>\\.qgis2\\python\\plugins`.
-
-After extracting the plugin, it should be available as:
-
-:file:`C:\\Users\\<your username>\\.qgis2\\python\\plugins\\inasafe\\`.
-
-Mac and Linux users need to follow the same procedure but instead the plugin
-directory will be under the $HOME directory:
-
-:file:`~/.qgis2/python/plugins/`
-
-Once the plugin is extracted, start QGIS and enable it from the plugin manager.
-To do this open the plugin manager
-:menuselection:`Plugins --> Manage and install plugins...` and type :samp:`insafe` into
-the search box.
-You should see the InaSAFE plugin appear in the list.
-Now tick the checkbox next to it to enable the plugin.
-
-.. image:: images/inasafe/plugin-manager.png
-   :scale: 75 %
-   :align: center
-   :alt: Plugin Manager
-
-   Plugin Manager
-
-Downgrade the InaSAFE plugin to a selected version
----------------------------------------------------------
-
-In case you have to use an older Version of QGIS or just want to
-install a specific version of the InaSAFE plugin into QGIS you have
-to do the following steps:
-
-1. Fetch the plugin manually from http://plugins.qgis.org/plugins/inasafe/ by
-   clicking on your preferred version number then clicking download.
-2. Remove your local copy from :file:`~/.qgis2/python/plugins/inasafe`
-   That would mean delete the folder :file:`inasafe` which is inside your
-   :file:`~/.qgis2/python/plugins` directory.
-   For Windows user this :file:`inasafe` directory would be in
-   :file:`C:\\Users\\<your username>\\.qgis2\\python\\plugins`
-3. Extract the downloaded version into that folder (Means to create the
-   :file:`inasafe` folder inside :file:`~/.qgis2/python/plugins` again
-4. Restart QGIS
-
-System Requirements
--------------------
-
- - A standard PC with at least 4GB of RAM running Windows, Linux or Mac OS X
- - The Open Source Geographic Information System QGIS (http://www.qgis.org).
-   InaSAFE requires QGIS version 1.7 or newer.
-
-Enable InaSAFE Plugin in QGIS
-.............................
-1. Now you will need to add the InaSAFE panel on your QGIS interface. For that,
-select :menuselection:`Toggle InaSAFE Dock` in the InaSAFE plugin scroll list.
-
-.. image:: images/inasafe/inasafe_plugin_toggle.png
-   :align: center
-   :width: 300 pt
- 
-The InaSAFE dock panel will then appear on the right of your QGIS window.
-
-.. image:: images/inasafe/inasafe_plugin_dialog.png
-   :align: center
-   :width: 300 pt
-
-It is the main way to interact with the tools that are provided in InaSAFE.
-
-Also, an InaSAFE icon will appear on the QGIS toolbar.
-
-.. image:: images/inasafe/inasafe_plugin_toolbar.png
-   :align: center
-   :width: 120 pt
-
-.. Note::
-   InaSAFE may not install properly depending on your operating system. You may 
-   need to install additional Python modules in order to proceed.
-
 Using InaSAFE
----------------
+=======================================
 
 InaSAFE Options
 ...............
@@ -358,17 +138,30 @@ are on your computer at :file:`~/quiapo/`.
 
 1. We will add the hazard layer in the INASAFE dock. For that, we need to add
 the hazard layer from QGIS first. The flood layer is in a raster format, so we
-will go to the QGIS menu, click on ||`Layer --> Add Raster Layer`.
+will go to the QGIS menu, click on :menuselection:`Layer --> Add Raster Layer`.
+
+.. note::
+   InaSAFE 2.0 is now allowing to import hazard layer in a vector format. 
 
 2. Once you click on that, a pop-up window will appear where you will have to
 fetch your flood data.  Please select the
 :file:`flood_5yr.tif` file from the :file:`~/quiapo/raster/flood` directory.
 
-This is a raster data (in GTiff format) that represents flooding depth in 
-Quiapo area for a return period of 5 years. Use the `flood.qml` as your 
-raster style.
-
 .. image:: images/inasafe/quiapo_5yr_flood.png
+   :align: center
+   :width: 300 pt
+
+This is a raster data (in GTiff format) that represents flooding depth in 
+Quiapo area for a return period of 5 years. Adding style on raster.
+Right click on the `flood_5yr` the select `Properties`. On `Style` tab,
+click `Load Style ...` Use the `flood.qml` as your 
+raster style.  file from the :file:`~/quiapo/raster/flood`.
+
+.. image:: images/inasafe/load_style.png
+   :align: center
+   :width: 300 pt
+
+.. image:: images/inasafe/quiapo_5yr_flood_style.png
    :align: center
    :width: 300 pt
 
@@ -400,7 +193,7 @@ two steps:
 1. Go to the InaSAFE tools on the toolbar, click on the :guilabel:`Keyword Editor` 
 icon.
 
-.. image:: images/inasafe/inasafe_keyword_editor_icon.png
+.. image:: images/inasafe/inasafe_keyword.png
    :align: center
    :width: 150 pt
 
@@ -464,6 +257,46 @@ entered in the :guilabel:`How many` box of the INASAFE dock panel.
    :align: center
    :width: 300 pt
 
+Impact Function Configuration
+...............
+
+This configuration has a 2 to 3 tabs which are `Options, Postprocessors and Minimum Needs`
+which can be customize for the impact result. 
+
+On the `Option` tab, You can see the `Threshold`
+plus the unit of measurement where we're going to base who are affected and not affected.
+For example in flood, threshold are in meter so when we added 1 in the textbox it means Buildings
+or People who are in 1 meter and above are the affected.
+
+.. image:: images/inasafe/threshold1.png
+   :align: center
+   :width: 150 pt
+
+On the `Postprocessors` tab, the collected data are being categorized in the impact result.
+Since we're using buildings as an exposure, it will categorized who are flooded and not flooded
+according to building types.
+
+.. image:: images/inasafe/postprocessors1.png
+   :align: center
+   :width: 150 pt
+
+Postprocessor for the people who needs to be evacuated has a different categories. There are
+`Gender, Age and Minimum Needs` It is categorized in gender to recognized women which 
+will received hygiene packs and for the lactating women who whill received additional rice pack. 
+Age are being categorized especially for the elder to have a better evacuation center.
+
+.. image:: images/inasafe/postprocessors2.png
+   :align: center
+   :width: 150 pt
+
+The `Minimum Needs` tab purpose is to give estimated relief packs to be given in every family
+who are affected by flood.
+
+.. image:: images/inasafe/min_needs.png
+   :align: center
+   :width: 150 pt
+
+
 Impact Analysis
 ...............
 
@@ -474,7 +307,7 @@ the exposure infrastructure or people. By selecting a combination from the
 of impact functions will be listed in the :guilabel:`Might` combo box.
 
 Impact scenarios are predefined depending on what the decision-maker is looking
-for. For our flood analysis in Jakarta, we only have on predefined impact
+for. For our flood analysis in Quiapo, we only have on predefined impact
 function which asks: **In case of flood event, how many buildings might be
 temporarily closed?** As we see on the previous step, this is filled
 automatically by default in the InaSAFE panel dock as soon as the hazard
@@ -499,41 +332,13 @@ non-affected building.
 Also, there is an **Action Checklist** where the question: 
 *Are the critical facilities still open?* And a **Note** description explaining 
 that buildings are said flooded when the flood level exceeds 1 meter.
-
-Enhancing the Map Output
-........................
-
-The final output map can be enhanced using cartographic functions in QGIS.
-Styles can be changed, background layer or other relevant layers can be added,
-layout can be changed using the :guilabel:`Print Composer` in QGIS.
-
-If you would like to add a background layer to your map, all you need to do
-is add a new plugin called :guilabel:`OpenLayers Plugin` in QGIS and follow the same
-steps as we did to acquire the InaSAFE plugin.
-
-1. To enable the OpenLayers plugin, go to the QGIS :guilabel:`Plugin Manager` and select
-:guilabel:`OpenLayers Plugin` if it is not yet activated.
-
-2. Once installed you should be able to use background imagery and tiles from
-Google, Bing, OpenStreetMap and others.
-
-.. image:: images/plugin_manager.png
-   :align: center
-   :width: 300 pt
-
-3. For our exercise, let's add the :menuselection:`Bing Aerial` view to our map as a
-background. Make sure that the background is not on top of the other active
-layers.
-
-.. image:: images/inasafe/inasafe_flood_impact_results_bing.png
-   :align: center
-   :width: 300 pt
  
 Print Results
 .............
 
 The data shown on the screen can be saved into a **PDF file** by clicking on
-:guilabel:`Print` at the bottom of the InaSAFE panel. The PDF file contains then the
+:guilabel:`Print` at the bottom of the InaSAFE panel and a message box will appear.
+On `Area to print` then click `Open PDF` button. The PDF file contains then the
 legend for the result of the impact assessment, the map created and a
 table summarizing the results from the impact function.
 
@@ -556,8 +361,13 @@ layer.
    :align: center
    :width: 300 pt
 
-2. Then :guilabel:`Save As` a shapefile or a raster. However the keywords and statistics
-do not get saved.
+2. Then :guilabel:`Save As` a shapefile or a raster. A new message box will appear,
+click `Browse` button then choose what directory to be used for saving. However the
+keywords and statistics do not get saved.
+
+.. image:: images/inasafe/save_as.png
+   :align: center
+   :width: 300 pt
 
 .. image:: images/inasafe/inasafe_save_as_vector2.png
    :align: center
@@ -570,7 +380,6 @@ Now that the project is saved under QGIS, you can go back to your work anytime
 you need. However, the statistical data will be lost whenever the project is
 closed. To get the data back, you will need to redo the impact analysis process
 we described above from :guilabel:`Run`.
-
 
 Further exercise
 ------------------

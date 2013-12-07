@@ -20,6 +20,8 @@ Contents
    Managing Data Attributes <qgis_attributes.rst>
    Digitizing Vector Layers <qgis_digitizing_sc.rst>
    Map Design with Print Composer <qgis_map_composer.rst>
+   Concept of InaSAFE <concept_inasafe.rst>
+   Installation of InaSAFE <install_inasafe.rst>
    Using InaSAFE in QGIS Plugin <intro_inasafe.rst>
    GNU Free Documentation License <gfdl.rst>
 
