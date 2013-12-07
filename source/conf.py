@@ -107,11 +107,11 @@ rst_epilog = """
                       :width: 20 pt
 .. |mActionCalculateField| image:: images/qgis_icons/mActionCalculateField.png
                            :width: 20 pt
-.. |mActionAddFeatureLine| image:: images/qgis_icons/mActionAddFeatureLine.png
+.. |mActionAddFeatureLine| image:: images/qgis_icons/mActionCaptureLine.png
                         :width: 20 pt
-.. |mActionAddFeaturePoint| image:: images/qgis_icons/mActionAddFeaturePoint.png
+.. |mActionAddFeaturePoint| image:: images/qgis_icons/mActionCapturePoint.png
                          :width: 20 pt
-.. |mActionAddFeaturePolygon| image:: images/qgis_icons/mActionAddFeaturePolygon.png
+.. |mActionAddFeaturePolygon| image:: images/qgis_icons/mActionCapturePolygon.png
                            :width: 20 pt
 .. |mActionCopySelected| image:: images/qgis_icons/mActionCopySelected.png
                          :width: 20 pt
