@@ -5,8 +5,8 @@ About this document
 =====================
 
 This document was designed as a supplementary material for the 
-"QGIS and InaSAFE Workshop" under the "Participatory mapping 
-and LGU decision support tools for Disaster Risk Reduction"
+"QGIS and InaSAFE Workshop" under the "**Participatory mapping 
+and LGU decision support tools for Disaster Risk Reduction**"
 in partnership with the Department of Interior and Local Government, 
 World Bank-East Asia Pacific and East Asia-AusAid Infrastructure for 
 Growth program, OpenStreetMap-Philippines  and the munipalities of 
