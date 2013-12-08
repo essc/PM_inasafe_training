@@ -1,6 +1,6 @@
-=======================================
+===============================================
 Install InaSAFE Plugin from QGIS Repository
-=======================================
+===============================================
 
 .. note::
    InaSAFE is a plugin for QGIS, so QGIS must be installed first via
