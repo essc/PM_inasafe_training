@@ -2,8 +2,8 @@
 Managing Data Attributes
 ==========================
 
-:term:`Attribute` s for vector data are stored in a table.  (In a 
-:term:`Shapefile` vector format, this is contained in a separate file with ``dbf`` 
+Attributes for vector data are stored in a table.  (In a 
+Shapefile vector format, this is contained in a separate file with ``dbf`` 
 extension). A table is like a spreadsheet. Each column in the table is called a 
 field. Each row in the table is a record. Each of the records in the attribute 
 table in a GIS corresponds to one feature. The application "links" the attribute 
@@ -76,7 +76,7 @@ Explore the different tools to understand how each one works.
 .. make this tip more affirmative in tone
 
 .. tip::
-   :term:`Shapefile` store attribute data in a separate file with a ``dbf`` 
+   Shapefile store attribute data in a separate file with a ``dbf`` 
    extension.  This is a widely used GIS database format. You can edit the dbf 
    file outside QGIS using a spreadsheet application such as MS Office Excel and 
    OpenOffice Calc, however, caution should be taken in order not to corrupt the 
@@ -103,15 +103,7 @@ in the :guilabel:`Map Legend`. Right-click the layer and select
 the ``pop_2010`` column. To enable editing in the attribute table, click the 
 |mActionToggleEditing| :guilabel:`Toggle editing mode`.  The barangay number are 
 in the ``barangay`` column.  Start adding the population of each 
-barangay following the table below:  
-
-.. raw:: latex
-
-   \pagebreak[4]
-
-.. include:: brgy_population.txt
-   :literal:
-
+barangay.  
 
 .. image:: images/open_table_for_editing.png
    :align: center
@@ -171,7 +163,8 @@ features in your :guilabel:`Map View`.
 the year 2010. 
 
 .. note::
-   Cannot do query if editing is on.
+   Editing is disabled when the layer is in filter or query mode.
+   In order to edit the layer, disable the query filter.
 
 .. raw:: latex
    

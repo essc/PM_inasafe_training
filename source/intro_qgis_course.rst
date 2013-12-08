@@ -17,7 +17,6 @@ At the end of the training/workshop, participants should be able to:
 
 * install QGIS,
 * navigate the basic interface of QGIS,
-* transform paper-based maps into GIS formats,
 * transform and create geospatial data from field reports and other non-map 
   based information,
 * perform basic vector data processing and,

@@ -14,7 +14,7 @@ available in the QGIS website.
   external repositories and maintained by the individual authors. 
 
 .. note::
-   You	need a working Internet	connection to download and update plugins.
+   A working Internet connection is required to download and update plugins.
 
 Add new plugins using Python Plugin Installer 
 -----------------------------------------------
@@ -35,8 +35,8 @@ tab.
 
 **Settings Tab** - contains a list of plugin repositories available. By 
 default, only the QGIS Official Repository is enabled. You can add several 
-user-contributed repositories, including the central QGIS Contributed Repository 
-and other external repositories by clicking the :guilabel:`Add…` 
+user-contributed repositories, including the central QGIS Contributed 
+Repository and other external repositories by clicking the :guilabel:`Add…` 
 button and providing 
 the repository details. 
 
@@ -53,11 +53,14 @@ in the :guilabel:`URL` field. Click :guilabel:`OK` to access the repository.
 
 * **Get More** - the plugin is available in the repository, but is not installed yet. 
 
-* **installed** - the plugin is already installed. If it is also available in any repository the :guilabel:`Reinstall plugin` button will be enabled.  
+* **installed** - the plugin is already installed. If it is also available in any 
+  repository the :guilabel:`Reinstall plugin` button will be enabled.  
 
-* **upgradeable** - the plugin is installed, but there is an updated version available. In this case, the :guilabel:`Upgrade plugin` button will be enabled.
+* **upgradeable** - the plugin is installed, but there is an updated version 
+  available. In this case, the :guilabel:`Upgrade plugin` button will be enabled.
 
-* **invalid** - the plugin is installed, but is broken or incompatible with your version of QGIS. The reason will be explained in the plugin description field.  
+* **invalid** - the plugin is installed, but is broken or incompatible with 
+  your version of QGIS. The reason will be explained in the plugin description field.  
 
 5. Find and select the :guilabel:`Openlayers Plugin` in the list.  Click 
 :guilabel:`Install plugin` button.
