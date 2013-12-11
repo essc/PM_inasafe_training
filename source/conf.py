@@ -309,6 +309,10 @@ rst_epilog = """
                          :width: 20 pt
 .. |crs| image:: images/qgis_icons/geographic.png
                          :width: 20 pt
+
+.. |keyword_editor| image:: images/inasafe_icons/show-keyword-editor.png.png
+                         :width: 20 pt
+
 """
 
 # -- Options for HTML output ---------------------------------------------------
