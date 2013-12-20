@@ -9,7 +9,7 @@ This document was designed as a supplementary material for the
 and LGU decision support tools for Disaster Risk Reduction**"
 in partnership with the Department of Interior and Local Government, 
 World Bank-East Asia Pacific and East Asia-AusAid Infrastructure for 
-Growth program, OpenStreetMap-Philippines  and the munipalities of 
+Growth program, OpenStreetMap-Philippines  and the municipalities of 
 of Candaba, Guagua, and Lubao, all in the province of Pampanga.
 
 About the Project

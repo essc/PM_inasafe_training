@@ -101,7 +101,7 @@ General options for the :guilabel:`Map Item Properties` tab are as follows:
 
 * **Map Dialog** - the :guilabel:`Preview` defines preview modes either 
   :guilabel:`Cache`, :guilabel:`Render`, and :guilabel:`Rectangle`. The 
-  :guilabel:`Map` dialog allows you to resize the map according to width, height or 
+  :guilabel:`Map` dialog allows you to re-size the map according to width, height or 
   scale. You can also set map :guilabel:`Rotation` in degree increment clockwise. 
 
 .. image:: images/add_new_map_map.png

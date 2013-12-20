@@ -191,7 +191,7 @@ rst_epilog = """
                         :width: 20 pt
 .. |mActionZoomToSelected| image:: images/qgis_icons/mActionZoomToSelected.png
                            :width: 20 pt
-.. |plugin_installer| image:: images/qgis_icons/plugin_installer.png
+.. |plugin_installer| image:: images/qgis_icons/mActionManagePlugins.png
                       :width: 20 pt
 .. |adddelimitedtext| image:: images/qgis_icons/adddelimitedtext.png
                       :width: 20 pt
@@ -309,6 +309,10 @@ rst_epilog = """
                          :width: 20 pt
 .. |crs| image:: images/qgis_icons/geographic.png
                          :width: 20 pt
+
+.. |keyword_editor| image:: images/inasafe_icons/show-keyword-editor.png.png
+                         :width: 20 pt
+
 """
 
 # -- Options for HTML output ---------------------------------------------------

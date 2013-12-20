@@ -212,7 +212,7 @@ Click :guilabel:`Apply` --> :guilabel:`OK`.
 the table below:
 
 +------------------------+---------------------------+--------------+------------------+---------------------+-----------------+
-| Layer 	         |Display Name               | Legend Type  |Icon              |Border Options (RGB)|Fill Options(RGB)|
+| Layer 	         |Display Name               | Legend Type  |Icon              |Border Options (RGB) |Fill Options(RGB)|
 +========================+===========================+==============+==================+=====================+=================+
 | pois                   | POIs                      | Single Symbol|small black circle|n/a                  |n/a              |
 +------------------------+---------------------------+--------------+------------------+---------------------+-----------------+

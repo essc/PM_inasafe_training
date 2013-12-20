@@ -1,5 +1,5 @@
 ==================================
-Using :index:`Custom Symbology`
+Using Custom Symbology
 ==================================
 
 QGIS provides many features for styling and improving the look of your maps.  The 
@@ -11,8 +11,8 @@ feature in the layer :guilabel:`Properties`  window.
 
 .. note::
    There are three types of symbols: marker symbols (for points), line symbols 
-   (for lines) and fill and outline symbols (for polygons) in 
-   :guilabel:`New Symbology`. Symbols can consist of one or more symbol layers. 
+   (for lines) and fill and outline symbols (for polygons). 
+   Symbols can consist of one or more symbol layers. 
    It is possible to define the color of a symbol and this color is then defined 
    for all symbol layers. Some layers may have the color locked - for those the 
    color can not be altered. This is useful when you define the color of a 
